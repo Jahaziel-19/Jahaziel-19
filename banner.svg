@@ -1,1 +1,144 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" shape-rendering="crispEdges" xmlns:c2pa="http://c2pa.org/manifest">
+  <title>Jahaziel Vázquez - Student Developer</title>
 
+  <!-- CIELO EN BANDAS (efecto pixel) -->
+  <rect width="1200" height="300" fill="#0b1026"/>
+  <rect y="20"  width="1200" height="20" fill="#11183a"/>
+  <rect y="40"  width="1200" height="20" fill="#1a2150"/>
+  <rect y="60"  width="1200" height="20" fill="#262a62"/>
+  <rect y="80"  width="1200" height="20" fill="#3a3470"/>
+  <rect y="100" width="1200" height="20" fill="#52407a"/>
+  <rect y="120" width="1200" height="20" fill="#6e4a80"/>
+  <rect y="140" width="1200" height="20" fill="#8f5784"/>
+  <rect y="160" width="1200" height="20" fill="#b36886"/>
+  <rect y="180" width="1200" height="30" fill="#d98388"/>
+
+  <!-- ESTRELLAS -->
+  <g fill="#ffffff">
+    <rect x="60"  y="30" width="6" height="6"><animate attributeName="opacity" values="1;0.2;1" dur="3s" repeatCount="indefinite"/></rect>
+    <rect x="150" y="60" width="6" height="6"/>
+    <rect x="240" y="20" width="6" height="6"><animate attributeName="opacity" values="0.3;1;0.3" dur="2.5s" repeatCount="indefinite"/></rect>
+    <rect x="330" y="80" width="6" height="6"/>
+    <rect x="420" y="40" width="6" height="6"><animate attributeName="opacity" values="1;0.2;1" dur="4s" repeatCount="indefinite"/></rect>
+    <rect x="510" y="25" width="6" height="6"/>
+    <rect x="600" y="70" width="6" height="6"><animate attributeName="opacity" values="0.2;1;0.2" dur="3.5s" repeatCount="indefinite"/></rect>
+    <rect x="700" y="35" width="6" height="6"/>
+    <rect x="790" y="15" width="6" height="6"><animate attributeName="opacity" values="1;0.3;1" dur="2.8s" repeatCount="indefinite"/></rect>
+    <rect x="880" y="60" width="6" height="6"/>
+    <rect x="950" y="25" width="6" height="6"><animate attributeName="opacity" values="0.3;1;0.3" dur="3.2s" repeatCount="indefinite"/></rect>
+    <rect x="1150" y="90" width="6" height="6"/>
+    <rect x="1110" y="20" width="6" height="6"><animate attributeName="opacity" values="1;0.2;1" dur="2.2s" repeatCount="indefinite"/></rect>
+  </g>
+
+  <!-- LUNA PIXELADA -->
+  <g fill="#ffe3a8">
+    <rect x="1030" y="30"  width="40" height="10"/>
+    <rect x="1020" y="40"  width="60" height="10"/>
+    <rect x="1010" y="50"  width="80" height="50"/>
+    <rect x="1020" y="100" width="60" height="10"/>
+    <rect x="1030" y="110" width="40" height="10"/>
+  </g>
+  <g fill="#f2c98a">
+    <rect x="1030" y="60" width="10" height="10"/>
+    <rect x="1060" y="80" width="10" height="10"/>
+    <rect x="1040" y="90" width="10" height="10"/>
+  </g>
+
+  <!-- EDIFICIOS (capa trasera) -->
+  <g fill="#2d2558">
+    <rect x="0"    y="205" width="60" height="30"/>
+    <rect x="70"   y="195" width="50" height="40"/>
+    <rect x="130"  y="210" width="70" height="25"/>
+    <rect x="210"  y="200" width="40" height="35"/>
+    <rect x="260"  y="205" width="60" height="30"/>
+    <rect x="330"  y="198" width="50" height="37"/>
+    <rect x="390"  y="208" width="70" height="27"/>
+    <rect x="470"  y="190" width="50" height="45"/>
+    <rect x="530"  y="170" width="60" height="65"/>
+    <rect x="600"  y="150" width="50" height="85"/>
+    <rect x="660"  y="120" width="70" height="115"/>
+    <rect x="740"  y="100" width="50" height="135"/>
+    <rect x="800"  y="130" width="60" height="105"/>
+    <rect x="870"  y="150" width="50" height="85"/>
+    <rect x="930"  y="110" width="60" height="125"/>
+    <rect x="1000" y="140" width="50" height="95"/>
+    <rect x="1060" y="125" width="60" height="110"/>
+    <rect x="1130" y="150" width="70" height="85"/>
+  </g>
+  <!-- antenas -->
+  <g fill="#2d2558">
+    <rect x="760" y="70" width="10" height="30"/>
+    <rect x="685" y="95" width="10" height="25"/>
+    <rect x="955" y="85" width="10" height="25"/>
+  </g>
+  <rect x="760" y="70" width="10" height="10" fill="#ff5f7a"><animate attributeName="opacity" values="1;0;1" dur="1.6s" repeatCount="indefinite"/></rect>
+
+  <!-- EDIFICIOS (capa frontal) -->
+  <g fill="#171236">
+    <rect x="20"   y="215" width="40" height="20"/>
+    <rect x="150"  y="212" width="40" height="23"/>
+    <rect x="280"  y="214" width="50" height="21"/>
+    <rect x="420"  y="210" width="40" height="25"/>
+    <rect x="560"  y="190" width="70" height="45"/>
+    <rect x="700"  y="160" width="60" height="75"/>
+    <rect x="850"  y="175" width="50" height="60"/>
+    <rect x="1100" y="185" width="60" height="50"/>
+  </g>
+
+  <!-- VENTANAS ENCENDIDAS -->
+  <g fill="#ffb86b">
+    <rect x="575"  y="200" width="10" height="10"/>
+    <rect x="605"  y="200" width="10" height="10"><animate attributeName="opacity" values="1;0;1" dur="5s" repeatCount="indefinite"/></rect>
+    <rect x="715"  y="170" width="10" height="10"/>
+    <rect x="735"  y="190" width="10" height="10"/>
+    <rect x="715"  y="210" width="10" height="10"><animate attributeName="opacity" values="1;0;1" dur="7s" repeatCount="indefinite"/></rect>
+    <rect x="865"  y="185" width="10" height="10"/>
+    <rect x="1115" y="195" width="10" height="10"/>
+    <rect x="1135" y="210" width="10" height="10"><animate attributeName="opacity" values="0;1;0" dur="6s" repeatCount="indefinite"/></rect>
+    <rect x="675"  y="140" width="10" height="10"/>
+    <rect x="750"  y="130" width="10" height="10"/>
+    <rect x="815"  y="150" width="10" height="10"><animate attributeName="opacity" values="1;0;1" dur="4.5s" repeatCount="indefinite"/></rect>
+    <rect x="945"  y="130" width="10" height="10"/>
+    <rect x="965"  y="170" width="10" height="10"/>
+    <rect x="1075" y="150" width="10" height="10"/>
+    <rect x="165"  y="222" width="10" height="8"/>
+    <rect x="435"  y="220" width="10" height="8"/>
+  </g>
+
+  <!-- SUELO / ESCRITORIO -->
+  <rect y="235" width="1200" height="65" fill="#0d0a1f"/>
+  <rect x="900" y="250" width="300" height="10" fill="#4a3560"/>
+  <rect x="900" y="260" width="300" height="6" fill="#33244a"/>
+
+  <!-- LAPTOP -->
+  <rect x="976" y="184" width="118" height="66" fill="#2a2a3d"/>
+  <rect x="982" y="190" width="106" height="54" fill="#0f1a2b"/>
+  <rect x="966" y="246" width="138" height="6" fill="#5a5a78"/>
+  <!-- codigo animado -->
+  <rect x="990" y="197" height="6" fill="#5ee6ff"><animate attributeName="width" values="0;50;50;0" dur="5s" repeatCount="indefinite"/></rect>
+  <rect x="996" y="207" height="6" fill="#9dff8a"><animate attributeName="width" values="0;0;62;62;0" dur="5s" repeatCount="indefinite"/></rect>
+  <rect x="996" y="217" height="6" fill="#ff7ab6"><animate attributeName="width" values="0;0;0;40;40;0" dur="5s" repeatCount="indefinite"/></rect>
+  <rect x="990" y="227" height="6" fill="#ffd36b"><animate attributeName="width" values="0;0;0;0;70;70;0" dur="5s" repeatCount="indefinite"/></rect>
+
+  <!-- TAZA DE CAFE -->
+  <rect x="1130" y="232" width="18" height="18" fill="#e8e8f0"/>
+  <rect x="1148" y="237" width="6" height="8" fill="#e8e8f0"/>
+  <rect x="1133" y="235" width="12" height="4" fill="#6b3f2a"/>
+  <g fill="#ffffff" opacity="0.6">
+    <rect x="1135" y="222" width="4" height="6"><animate attributeName="opacity" values="0;0.7;0" dur="2s" repeatCount="indefinite"/></rect>
+    <rect x="1141" y="216" width="4" height="6"><animate attributeName="opacity" values="0;0.7;0" dur="2s" begin="0.7s" repeatCount="indefinite"/></rect>
+  </g>
+
+  <!-- TEXTO -->
+  <g font-family="'Courier New', Courier, monospace" font-weight="bold">
+    <text x="63" y="123" font-size="48" fill="#ff5f9e">JAHAZIEL VAZQUEZ</text>
+    <text x="60" y="120" font-size="48" fill="#f4fbff">JAHAZIEL VAZQUEZ</text>
+    <text x="60" y="160" font-size="20" fill="#ffcf8a">&gt; student developer // python + js</text>
+  </g>
+  <rect x="474" y="144" width="12" height="20" fill="#ffcf8a">
+    <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- MARCO PIXEL -->
+  <rect x="0" y="0" width="1200" height="300" fill="none" stroke="#36bcf7" stroke-width="6"/>
+<metadata><c2pa:manifest>AAAWgmp1bWIAAAAeanVtZGMycGEAEQAQgAAAqgA4m3EDYzJwYQAAABZcanVtYgAAAEdqdW1kYzJtYQARABCAAACqADibcQN1cm46YzJwYTplOTM0Yzk2ZC1lOTAxLTQ3MDktYjY1OC1iYjZjY2JhYzI4MjQAAAADl2p1bWIAAAApanVtZGMyYXMAEQAQgAAAqgA4m3EDYzJwYS5hc3NlcnRpb25zAAAAALxqdW1iAAAARGp1bWRjYm9yABEAEIAAAKoAOJtxE2MycGEuaW5ncmVkaWVudC52MwAAAAAYYzJzaKato+MzzbrwjpWrTUABuvYAAABwY2JvcqNpZGM6Zm9ybWF0bWltYWdlL3N2Zyt4bWxqaW5zdGFuY2VJRHgseG1wOmlpZDo4MWRlMjc1Ni1lNjk5LTRlYTgtODIzMS0wMDBlNTdiYzMxNzlscmVsYXRpb25zaGlwaHBhcmVudE9mAAAB4mp1bWIAAABBanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5hY3Rpb25zLnYyAAAAABhjMnNolTaFz9kt8S8K5Fphn9nHLwAAAZljYm9yomdhY3Rpb25zgqJmYWN0aW9ua2MycGEub3BlbmVkanBhcmFtZXRlcnOha2luZ3JlZGllbnRzgaJjdXJseC1zZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmluZ3JlZGllbnQudjNkaGFzaFggtBXKNS3njZDWWsS49Y1XzGvmFmfG9FLVAX2hECCRSFCkZmFjdGlvbngdY29tLmFudGhyb3BpYy5jbGF1ZGUucHJvdmlkZWRqcGFyYW1ldGVyc6F4H2NvbS5hbnRocm9waWMub3JpZ2luLWNvbmZpZGVuY2VndW5rbm93bmtkZXNjcmlwdGlvbnhmQ2xhdWRlIHByb3ZpZGVkIHRoaXMgZmlsZSBhdCB0aGUgcmVxdWVzdCBvZiBhIHVzZXIgYW5kIG1heSBoYXZlIGNyZWF0ZWQgb3IgbW9kaWZpZWQgdGhlIGZpbGUgY29udGVudHMubXNvZnR3YXJlQWdlbnShZG5hbWVmQ2xhdWRlcmFsbEFjdGlvbnNJbmNsdWRlZPUAAADIanVtYgAAAEBqdW1kY2JvcgARABCAAACqADibcRNjMnBhLmhhc2guZGF0YQAAAAAYYzJzaJkVMs6gltGDfBORZJN+UesAAACAY2JvcqVjYWxnZnNoYTI1NmNwYWRMAAAAAAAAAAAAAAAAZGhhc2hYIC/XaNTTyyu4sUt5z43TmlEFCEfhGVi/ldfcT6V40zU0ZG5hbWVuanVtYmYgbWFuaWZlc3RqZXhjbHVzaW9uc4GiZXN0YXJ0GR85Zmxlbmd0aBkeBAAAAj5qdW1iAAAAJ2p1bWRjMmNsABEAEIAAAKoAOJtxA2MycGEuY2xhaW0udjIAAAACD2Nib3KlY2FsZ2ZzaGEyNTZpc2lnbmF0dXJleE1zZWxmI2p1bWJmPS9jMnBhL3VybjpjMnBhOmU5MzRjOTZkLWU5MDEtNDcwOS1iNjU4LWJiNmNjYmFjMjgyNC9jMnBhLnNpZ25hdHVyZWppbnN0YW5jZUlEeCx4bXA6aWlkOjlkYWJiMjYxLTFhNzItNDRmZi1hYmY1LWRjZjY3ZDQyNTVmNnJjcmVhdGVkX2Fzc2VydGlvbnODomN1cmx4LXNlbGYjanVtYmY9YzJwYS5hc3NlcnRpb25zL2MycGEuaW5ncmVkaWVudC52M2RoYXNoWCC0Fco1LeeNkNZaxLj1jVfMa+YWZ8b0UtUBfaEQIJFIUKJjdXJseCpzZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmFjdGlvbnMudjJkaGFzaFgg+c7g0e6O5TZikR+P11SP38fkVet160FOSQJh0alaMjyiY3VybHgpc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5oYXNoLmRhdGFkaGFzaFggIeDi4hSDWSdOpK/pI2J7eYWoRWQ0w2HxUe69FeCRpYZ0Y2xhaW1fZ2VuZXJhdG9yX2luZm+jZG5hbWVvQW50aHJvcGljIEZpbGVzZ3ZlcnNpb25lMS4wLjBrc3BlY1ZlcnNpb25lMi40LjAAABA4anVtYgAAAChqdW1kYzJjcwARABCAAACqADibcQNjMnBhLnNpZ25hdHVyZQAAABAIY2JvctKEWQISogEmGCFZAgowggIGMIIBjaADAgECAhRA5aAK7sI50L64g/oGQgU9Z1UTADAKBggqhkjOPQQDAzBJMRcwFQYDVQQKEw5BbnRocm9waWMsIFBCQzEuMCwGA1UEAxMlQW50aHJvcGljIENvbnRlbnQgQ3JlZGVudGlhbHMgUm9vdCBDQTAeFw0yNjA4MDcxODQzNTZaFw0yODA4MDYxOTQzNTZaMEQxFzAVBgNVBAoTDkFudGhyb3BpYywgUEJDMSkwJwYDVQQDEyBBbnRocm9waWMgQ2xhdWRlIENvbnRlbnQgU2lnbmluZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJh6CmvLUBgFFNU0vUKlOVtE6djd17L5SuwX0LemFisBM3dkd/3cyjxFA3Qo5S46fX0/ihY0VZ7mfb9KF703t5OjWDBWMA4GA1UdDwEB/wQEAwIHgDAVBgNVHSUEDjAMBgorBgEEAYPoXgIBMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUzlHiBIFOZFsj+OPEz5o+nMHXXMIwCgYIKoZIzj0EAwMDZwAwZAIwMXMdFJ4BetLLVY7ORuE9noqbbAZOZn/aArXyTwFAZfKrPzxF2vPoJNf1+UCdg1XGAjBwX1zd9WGqYkqmL5SFqw1QySjr1zJfpJM9+1rdDwSPLMOPOjKuiXjoU/pUUeG9RwmhY3BhZFkNngAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPZYQCyPlfP8ggIVYRDqA2l4djrPI1PlfxYeUedgokYg4baQbMJIjJEtqN0DQPlV2TvgybMlbHEuVcAG2ytac852T10=</c2pa:manifest></metadata></svg>
